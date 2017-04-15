@@ -573,10 +573,11 @@ body {
 }
 #menu,
 #tocMenu {
-    position: fixed;
+    position: absolute;
     right: 0%;
     padding-right:3%;
-    top: 5%;
+    padding-bottom:5%;
+    top: 2%;
     background: transparent;
     box-sizing: border-box;
     transform-style: preserve-3d;
@@ -713,7 +714,6 @@ body {
     left: 1.5em;
     top: 0;
     width: 100%;
-    border-top: 1px solid #E1E2E6
 }
 #menu .menu-list .menu-list-item:first-child:after,
 #tocMenu .menu-list .menu-list-item:first-child:after {
@@ -722,7 +722,6 @@ body {
 #menu .menu-list .menu-list-item a,
 #tocMenu .menu-list .menu-list-item a {
     position: relative;
-    display: block;
     padding: 1em 1.5em;
     font-weight: inherit;
     font-weight: 400
