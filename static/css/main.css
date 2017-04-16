@@ -144,6 +144,10 @@ a:focus {
 .post-content {
 	background-color: #F2F3F5;
 	color:#000000;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	padding: 10px;
 }
 h1,
 h2,
