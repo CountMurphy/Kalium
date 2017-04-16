@@ -134,7 +134,7 @@ a:focus {
     color: #1F2026
 }
 .post-content a {
-    border-bottom: 2px solid #36D995
+    border-bottom: 2px solid #ff5f00;
 }
 .post-content a:hover,
 .post-content a:focus {
@@ -404,7 +404,7 @@ iframe {
     margin: auto
 }
 #nprogress .bar {
-    background: #36D995 !important;
+    background: #ff5f00 !important;
     height: 3px !important
 }
 #nprogress .bar .peg {
@@ -915,7 +915,7 @@ body {
     width: 100%;
     left: 0;
     bottom: 0;
-    border-bottom: 4px solid #36D995
+    border-bottom: 4px solid #b50909;
 }
 #footer {
     position: absolute;
@@ -1004,7 +1004,7 @@ body {
     bottom: -0.334em;
     width: 1em;
     margin-bottom: -2px;
-    border-bottom: 4px solid #36D995
+    border-bottom: 4px solid #b50909;
 }
 .post .post-title a {
     text-decoration: none;
@@ -1166,7 +1166,7 @@ body {
     position: relative;
     margin: -2em -1.99em 0;
     overflow: hidden;
-    background: #36D995
+    background: #b50909;
 }
 @media only screen and (max-width: 50em) {
     .post-list .post .post-image {
@@ -1187,7 +1187,7 @@ body {
     width: 110%;
     height: 4em;
     background: #fff;
-    border-top: 4px solid #36D995;
+    border-top: 4px solid #b50909;
     box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
     transform: rotate(5deg);
     transition: all ease-out 0.2s
@@ -1253,7 +1253,7 @@ body {
     border-radius: 2px;
     color: #fff;
     text-shadow: 0 0 2px #2DB77E;
-    background: #36D995;
+    background: #b50909;
     font-weight: 300
 }
 .post-footer .post-tags a:hover,
@@ -1334,12 +1334,12 @@ body {
 }
 .post-nav .post-nav-item:hover .post-nav-teaser .post-nav-icon,
 .post-nav .post-nav-item:focus .post-nav-teaser .post-nav-icon {
-    box-shadow: 0 0 0 25em #36D995
+    box-shadow: 0 0 0 25em #ff5f00;
 }
 @media only screen and (max-width: 50em) {
     .post-nav .post-nav-item:hover .post-nav-teaser .post-nav-icon,
     .post-nav .post-nav-item:focus .post-nav-teaser .post-nav-icon {
-        box-shadow: 0 0 0 2px #36D995
+        box-shadow: 0 0 0 2px #ff5f00;
     }
 }
 .post-nav .post-nav-item:hover .post-nav-teaser .post-nav-info,
@@ -1354,7 +1354,7 @@ body {
 }
 .post-nav .post-nav-item:hover .post-nav-teaser .post-nav-info .post-nav-title,
 .post-nav .post-nav-item:focus .post-nav-teaser .post-nav-info .post-nav-title {
-    color: #1F2026
+    color: #FFFFFF;
 }
 .post-nav .post-nav-item:hover .post-nav-teaser .post-nav-info .post-nav-excerpt,
 .post-nav .post-nav-item:focus .post-nav-teaser .post-nav-info .post-nav-excerpt {
@@ -1406,7 +1406,7 @@ body {
     text-align: center;
     box-sizing: border-box;
     border-radius: 10em;
-    border: 1px solid #36D995;
+    border: 1px solid #ff5f00;
     box-shadow: 0 0 0 0 transparent;
     transition: all ease-out 0.1s;
     background: #F2F3F5
