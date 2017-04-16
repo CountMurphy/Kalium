@@ -140,6 +140,11 @@ a:focus {
 .post-content a:focus {
     border-color: #2DB77E
 }
+
+.post-content {
+	background-color: #F2F3F5;
+	color:#000000;
+}
 h1,
 h2,
 h3,
@@ -443,7 +448,9 @@ body {
     width: 100%;
     min-height: 100vh;
     padding-bottom: 6em;
-    background: #F2F3F5
+    /*background: #F2F3F5;*/
+    background:url('https://www.random-hackery.net/wp-content/uploads/2013/11/beBackBg.jpg') top right no-repeat; background-attachment:fixed;
+    background-size:100%;
 }
 @keyframes pushPrev {
     0% {
@@ -508,7 +515,7 @@ body {
 }
 #nav {
     position: relative;
-    background: #fff;
+    background: #000000;
     z-index: 70;
     transition: all ease-out 0.4s;
     transform: translate3d(0, 0, 0);
@@ -1021,6 +1028,7 @@ body {
     margin: 0 auto 4em;
     padding: 0.5em;
     z-index: 10
+    color:#F2F3F5;
 }
 @keyframes fade {
     0% {
