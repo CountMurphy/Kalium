@@ -585,13 +585,14 @@ body {
 }
 #menu,
 #tocMenu {
-    position: absolute;
-    right: 0%;
     padding-right:3%;
     padding-bottom:5%;
-    top: 2%;
+    padding-top: 1%;
     background: transparent;
     box-sizing: border-box;
+    position:absolute;
+    top:0;
+    right:0;
     transform-style: preserve-3d;
     z-index: 100
 }
