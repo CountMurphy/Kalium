@@ -613,6 +613,11 @@ body {
     opacity: 1;
     transform: translate3d(0, 0, 0)
 }
+#tocBox{
+	background-color: rgba(15,15,15,.1);
+	padding-left:40%;
+	border-radius:20px;
+}
 #menu .menu-header,
 #tocMenu .menu-header {
     position: absolute;

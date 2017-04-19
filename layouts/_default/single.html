@@ -15,8 +15,13 @@
   			</header>
 
   			<section class="post-content">
+				{{ if .TableOfContents }}
+				<div id="tocBox">
+					Table of Contents
+					{{ .TableOfContents }}
+				</div>
+				{{ end }}
   				<h1 class="post-title">{{ .Title }}</h1>
-				{{ .TableOfContents }}
 
   				{{ .Content }}
   			</section>
