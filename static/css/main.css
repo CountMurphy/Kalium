@@ -453,7 +453,6 @@ body {
     min-height: 100vh;
     padding-bottom: 6em;
     /*background: #F2F3F5;*/
-    background:url('https://www.random-hackery.net/wp-content/uploads/2013/11/beBackBg.jpg') top right no-repeat; background-attachment:fixed;
     background-size:100%;
     background-color:#000000;
 }

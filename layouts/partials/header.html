@@ -135,6 +135,11 @@
 
     {{ partial "criticalpath.html" . }}
 
+<style>
+#wrapper {
+    background:url('{{ .Site.Params.background_image }} ') top right no-repeat; background-attachment:fixed;
+}
+</style>
     </head>
     <body class="home-template">
       <div id="loader-wrapper">
