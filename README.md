@@ -4,7 +4,7 @@ Theme forked from Ghost [Bleak](https://github.com/zutrinken/bleak) by [zuntrink
 
 ## Index view
 
-![Index page](https://random-hackery.net/gitImages/Kalium/Main.png)
+![Index page](images/screenshot.png)
 
 ## Post view
 
