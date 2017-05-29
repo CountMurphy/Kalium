@@ -47,7 +47,7 @@ Theme forked from Ghost [Bleak](https://github.com/zutrinken/bleak) by [zuntrink
     gravatarHash = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
-##Differences From Original (Bleak)
+## Differences From Original (Bleak)
 - Darker Theme
 - No hamburger menus
 - Table of contents not hidden behind icon
