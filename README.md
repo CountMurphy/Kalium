@@ -1,14 +1,14 @@
-# Bleak
+# Kalium
 
-Theme based from Ghost [Bleak](https://github.com/zutrinken/bleak) by [zuntrinken](https://github.com/zutrinken).
+Theme forked from Ghost [Bleak](https://github.com/zutrinken/bleak) by [zuntrinken](https://github.com/zutrinken).
 
 ## Index view
 
-![Index page](https://raw.githubusercontent.com/Zenithar/hugo-theme-bleak/master/images/full_blog.png)
+![Index page](https://random-hackery.net/gitImages/Kalium/Main.png)
 
 ## Post view
 
-![Post page](https://raw.githubusercontent.com/Zenithar/hugo-theme-bleak/master/images/full_post.png)
+![Post page](https://random-hackery.net/gitImages/Kalium/post.png)
 
 ## Original theme credits
 
@@ -20,8 +20,12 @@ Theme based from Ghost [Bleak](https://github.com/zutrinken/bleak) by [zuntrinke
 [params]
   # Warning Keys are case sensitives
   Subtitle = "Your subtitle !"
+  cover = "bannerImg.png"
+  logo = "homeButtonImage.png"
+  background_image = "backgroundImage.png"
   description = "Everything is awesome !"
   cover = "/images/cover.jpg"
+  favicon = "/img/favicon.jpg"
 
   # Google analytics
   googleAnalyticsUserID = "UA-xxxxxxxx-x"
@@ -43,32 +47,16 @@ Theme based from Ghost [Bleak](https://github.com/zutrinken/bleak) by [zuntrinke
     gravatarHash = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
-## Development
+##Differences From Original (Bleak)
+- Darker Theme
+- No hamburger menus
+- Table of contents not hidden behind icon
+- Added Background image
+- Better Url mapping
 
-Install [Grunt](http://gruntjs.com/getting-started/):
 
-	npm install -g grunt-cli
-
-Install Grunt modules:
-
-	npm install
-
-Install [Bower](http://bower.io):
-
-	npm install -g bower
-
-Install Bower components:
-
-	bower install
-
-Build Grunt project:
-
-	grunt
-
-Distribute Grunt project:
-
-	grunt build
-
+***
+Original copyright notice:
 
 Copyright (C) 2015-2016 Peter Amende - Released under the MIT License.
 
