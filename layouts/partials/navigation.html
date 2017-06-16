@@ -9,6 +9,12 @@
             <a class="home current js-ajax-link" href="{{ .URL }}">{{ .Name }}</a>
         </li>
         {{ end }}
+	{{if .Site.Params.Author.github }}
+	    <li>
+		    <a href="{{.Site.Params.Author.github}}"><img src="{{.Site.BaseURL}}gh.png" style="height: 50px; margin: 0em !important;top: -5px;position:relative;"></a>
+	    </li>
+        {{ end }}
+
     </div>
 
 </div>
