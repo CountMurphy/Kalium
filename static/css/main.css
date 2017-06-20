@@ -632,6 +632,12 @@ body {
     background: #fff
 }
 #menu .menu-header:before,
+#gitHubCat {
+	height: 40px;
+       	margin: 0em !important;
+	top: -5px;
+	position:relative;
+}
 #tocMenu .menu-header:before {
     content: '';
     position: absolute;
