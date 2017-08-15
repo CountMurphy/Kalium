@@ -124,14 +124,14 @@ body {
     text-shadow: none
 }
 a {
-    color: inherit;
+    color: #ff5f00;
     text-decoration: none;
     font-weight: 400;
     transition: all ease-out 0.2s
 }
 a:hover,
 a:focus {
-    color: #1F2026
+    color: #2DB77E;
 }
 .post-content a {
     border-bottom: 2px solid #ff5f00;
