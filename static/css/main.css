@@ -77,6 +77,10 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
 }
+
+figcaption{
+    text-align:center;
+}
 .icon-star:before {
     content: '\e800'
 }
