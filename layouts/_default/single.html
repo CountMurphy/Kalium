@@ -17,11 +17,12 @@
   			<section class="post-content">
   				<h1 class="post-title">{{ .Title }}</h1>
 				{{ if .TableOfContents }}
+				<hr>
 				<div id="tocBox">
-					Table of Contents
+					<h3>Table of Contents</h3>
 					{{ .TableOfContents }}
-					<hr>
 				</div>
+				<hr>
 				{{ end }}
 
   				{{ .Content }}

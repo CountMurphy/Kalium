@@ -251,7 +251,7 @@ hr {
     height: 1px;
     margin: 2em 0;
     padding: 0;
-    background: #E1E2E6;
+    background: #cecece;
     border: 0
 }
 blockquote {
@@ -613,9 +613,11 @@ body {
     opacity: 1;
     transform: translate3d(0, 0, 0)
 }
+
+#tocBox h3{
+	text-align:center;
+}
 #tocBox{
-	padding-left:40%;
-	border-radius:20px;
 }
 #menu .menu-header,
 #tocMenu .menu-header {
