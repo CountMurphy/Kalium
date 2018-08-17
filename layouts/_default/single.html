@@ -15,13 +15,14 @@
   			</header>
 
   			<section class="post-content">
+  				<h1 class="post-title">{{ .Title }}</h1>
 				{{ if .TableOfContents }}
 				<div id="tocBox">
 					Table of Contents
 					{{ .TableOfContents }}
+					<hr>
 				</div>
 				{{ end }}
-  				<h1 class="post-title">{{ .Title }}</h1>
 
   				{{ .Content }}
   			</section>

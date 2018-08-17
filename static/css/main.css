@@ -194,7 +194,6 @@ p {
     margin: 2em auto
 }
 ul {
-    list-style: none
 }
 li {
     position: relative
@@ -212,7 +211,6 @@ ol>li:before {
 }
 ul>li:before {
     margin-top: 0.125em;
-    content: '*'
 }
 ol {
     list-style-type: none;
@@ -616,7 +614,6 @@ body {
     transform: translate3d(0, 0, 0)
 }
 #tocBox{
-	background-color: rgba(15,15,15,.1);
 	padding-left:40%;
 	border-radius:20px;
 }
